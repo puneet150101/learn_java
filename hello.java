@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class hello {
-    public static void main(String[] args) throws IOException
+    public static void main(String[] args)  throws Exception
     {
         BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(rd.readLine());

@@ -1,5 +1,4 @@
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
@@ -20,10 +19,13 @@ class test {
 public class hello {
     public static void main(String[] args) throws Exception {
         BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));
-        ArrayList<Integer> al = new ArrayList();
-        for (String i : rd.readLine().split(" "))
-            al.add(Integer.parseInt(i));
-        for (Integer i : al)
-            System.out.println(i);
+        Vector<Integer> vl=new Vector<Integer>();
+        for(String i:rd.readLine().split(" "))
+        {
+            vl.add(Integer.parseInt(i));
+        }
+        Iterator<Integer> itr=vl.iterator();
+        while(itr.hasNext())
+        System.out.println(itr.next());
     }
 }

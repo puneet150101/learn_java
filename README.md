@@ -1,8 +1,28 @@
 # Track of Java
-<br>
-Started working with **Jabba**
+Started working with **Jabba**.<br>
+- [x] OOPS concepts 
+- [x] Class and intefaces : Access modifiers, Final and staic keywords
+- [x] Contructors 
+- [x] Getter and setter functions in classes
+- [x] Inheritance
+- [x] Polymorphism 
+    - [x] Function/method overloading
+    - [x] Function/method overriding
+- [x] Object classes
+- [x] Collections
+    - [x] Array and array list
+    - [x] Vectors
+    - [x] Hashmaps
+    - [x] Stacks
+    - [x] Queue and deque
+- [x] Exception handling and use of throw, throws
+- [ ] Comparable class creation
+- [ ] Comparator class creation
+- [ ] Lambda expression
+- [ ] Functional Stream
 
-Testing markdown. <br>
+------------------------------
+### Markdown Testings
 Using line breaks. <br>
 *using italic texts*
 * using

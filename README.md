@@ -16,9 +16,9 @@ Started working with **Jabba**.<br>
     - [x] Stacks
     - [x] Queue and deque
 - [x] Exception handling and use of throw, throws
-- [ ] Comparable class creation
-- [ ] Comparator class creation
-- [ ] Lambda expression
+- [x] Comparable class creation
+- [x] Comparator class creation
+- [x] Lambda expression
 - [ ] Functional Stream
 
 ------------------------------

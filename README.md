@@ -12,13 +12,14 @@ Started working with **Jabba**.<br>
 - [x] Collections
     - [x] Array and array list
     - [x] Vectors
-    - [x] Hashmaps
+    - [ ] Hashmaps
     - [x] Stacks
     - [x] Queue and deque
 - [x] Exception handling and use of throw, throws
 - [x] Comparable class creation
 - [x] Comparator class creation
 - [x] Lambda expression
+- [x] Using *forEach* method and *lambda* expression for internal iteration and single line input statement
 - [ ] Functional Stream
 
 ------------------------------

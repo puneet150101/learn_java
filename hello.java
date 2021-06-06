@@ -35,14 +35,15 @@ class sortbyname implements Comparator<test> {
 
 interface work {
     public void test(int i, String b);
-}
+}   
 
 public class hello {
 
     public static void main(String[] args) throws IOException {
         BufferedReader rd = new BufferedReader(new InputStreamReader(System.in)); // decaring bufferedreader object
-        List<Integer> data = new ArrayList<Integer>();
-        Arrays.asList(rd.readLine().split(" ")).forEach(i->data.add(Integer.parseInt(i)));
-        data.forEach(i->System.out.println(i));
+        List<Integer> data = new ArrayList<Integer>(); // new integer list
+        System.out.print("Enter the data:");
+        Arrays.asList(rd.readLine().split(" ")).forEach(i->data.add(Integer.parseInt(i))); // taking input
+        data.stream().filter(i->i%5==0).forEach(System.out::println); //using stream and filter interface to filter all divisibe by 5 numbers and printing using foreach and function reference passing
     }
 }

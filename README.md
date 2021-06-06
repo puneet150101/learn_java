@@ -20,7 +20,7 @@ Started working with **Jabba**.<br>
 - [x] Comparator class creation
 - [x] Lambda expression
 - [x] Using *forEach* method and *lambda* expression for internal iteration and single line input statement
-- [ ] Functional Stream
+- [x] Functional interface and Stream API
 
 ------------------------------
 ### Markdown Testings
